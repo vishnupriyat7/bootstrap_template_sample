@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+      integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <link
+      rel="stylesgeet"
+      href="https://rawgit.com/creativetimofficial/material-kit/master/assets/css/material-kit.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="landing-page">
+    <nav
+      class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"
+      color-on-scroll="100"
+      id="sectionsNav"
+    >
+      <div class="container">
+        <div class="navbar-translate">
+          <a class="navbar-brand" href="../index.html">Full Stack Developer </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div>
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="dropdown nav-item"> -->
+            <li class="dropdown nav-item">
+              <!-- <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> -->
+              <a
+                href="#"
+                class="dropdown-toggle nav-link"
+                data-toggle="dropdown"
+              >
+                <i class="material-icons">apps</i> Contents
+              </a>
+              <div class="dropdown-menu dropdown-with-icons">
+                <a href="https://www.learn-html.org/" class="dropdown-item">
+                  <i class="material-icons">html</i> HTML
+                </a>
+                <a
+                  href="https://web.dev/learn/css/?gclid=EAIaIQobChMI3ZOo3vCx-QIVNSlyCh3k7QtNEAAYASAAEgKqpfD_BwE"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">css</i> CSS
+                </a>
+                <a
+                  href="https://www.javatpoint.com/javascript-tutorial"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">javascript</i> JavaScript
+                </a>
+                <a href="https://expressjs.com/" class="dropdown-item">
+                  <i class="material-icons">css</i> Express JS
+                </a>
+                <a
+                  href="https://reactjs.org/tutorial/tutorial.html"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">layers</i> React JS
+                </a>
+                <a href="https://nodejs.dev/learn" class="dropdown-item">
+                  <i class="material-icons">layers</i> Node JS
+                </a>
+                <a
+                  href="https://www.javatpoint.com/mongodb-tutorial"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">layers </i>Mongo DB
+                </a>
+
+                <a
+                  href="http://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html"
+                  class="dropdown-item"
+                >
+                  <i class="material-icons">content_paste</i> Documentation
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="javascript:void(0)"
+                onclick="scrollToDownload()"
+              >
+                <i class="material-icons">cloud_download</i> Download
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://twitter.com/fullstackdevjs"
+                target="_blank"
+                data-original-title="Follow us on Twitter"
+              >
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://www.facebook.com/entri.me/"
+                target="_blank"
+                data-original-title="Like us on Facebook"
+              >
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title=""
+                data-placement="bottom"
+                href="https://www.instagram.com/CreativeTimOfficial"
+                target="_blank"
+                data-original-title="Follow us on Instagram"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="page-header header-filter"
+      data-parallax="true"
+      style="
+        background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/fullstack_php_js.jpg');
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="title">Full Stack Developer Story</h1>
+            <h4>
+              A Full-Stack developer is a professional responsible for working
+              on both front-end and back-end development processes. They design,
+              develop, and maintain fully-fledged and functioning platforms with
+              databases or servers. These servers do not need other third-party
+              applications to build an entire system from scratch.
+            </h4>
+            <br />
+            <a
+              href="https://webapp.entri.app/skills/8352/"
+              target="_blank"
+              class="btn btn-danger btn-raised btn-lg"
+            >
+              <i class="fa fa-play"></i> Watch video
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main main-raised">
+      <div class="container">
+        <div class="section text-center">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h2 class="title">MERN STACK</h2>
+              <h5 class="description">
+                MERN stack is a collection of technologies that enables faster
+                application development. It is used by developers worldwide. The
+                main purpose of using MERN stack is to develop apps using
+                JavaScript only. This is because the four technologies that make
+                up the technology stack are all JS-based.
+              </h5>
+            </div>
+          </div>
+
+          <div class="features">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="info">
+                  <div class="icon icon-info">
+                    <i class="material-icons">storage</i>
+                  </div>
+                  <h4 class="info-title">Mongo DB</h4>
+                  <p>
+                    MongoDB is a non-relational document database that provides
+                    support for JSON-like storage. The MongoDB database has a
+                    flexible data model that enables you to store unstructured
+                    data, and it provides full indexing support, and replication
+                    with rich and intuitive APIs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="info">
+                  <div class="icon icon-success">
+                    <i class="material-icons">JS</i>
+                  </div>
+                  <h4 class="info-title">ExpressJS</h4>
+                  <p>
+                    Express.js is a web application framework for Node.js. It
+                    provides various features that make web application
+                    development fast and easy which otherwise takes more time
+                    using only Node.js. Express.js is based on the Node.js
+                    middleware module called connect which in turn uses http
+                    module. So, any middleware which is based on connect will
+                    also work with Express.js.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="info">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">JS</i>
+                  </div>
+                  <h4 class="info-title">React JS</h4>
+                  <p>
+                    React is a free and open-source front-end JavaScript library
+                    for building user interfaces based on UI components. It is
+                    maintained by Meta (formerly Facebook) and a community of
+                    individual developers and companies.React can be used as a
+                    base in the development of single-page, mobile, or
+                    server-rendered applications with frameworks like Next.js.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="info">
+                  <div class="icon icon-info">
+                    <i class="material-icons">JS</i>
+                  </div>
+                  <h4 class="info-title">Node JS</h4>
+                  <p>
+                    MongoDB is a non-relational document database that provides
+                    support for JSON-like storage. The MongoDB database has a
+                    flexible data model that enables you to store unstructured
+                    data, and it provides full indexing support, and replication
+                    with rich and intuitive APIs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="info">
+                  <div class="icon icon-success">
+                    <i class="material-icons">html</i>
+                  </div>
+                  <h4 class="info-title">HTML</h4>
+                  <p>
+                    HTML stands for Hyper Text Markup Language, which is the
+                    most widely used language on Web to develop web pages. HTML
+                    was created by Berners-Lee in late 1991 but "HTML 2.0" was
+                    the first standard HTML specification which was published in
+                    1995.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="info">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">css</i>
+                  </div>
+                  <h4 class="info-title">CSS</h4>
+                  <p>
+                    Cascading Style Sheets, fondly referred to as CSS, is a
+                    simple design language intended to simplify the process of
+                    making web pages presentable. CSS is a MUST for students and
+                    working professionals to become a great Software Engineer
+                    specially when they are working in Web Development Domain.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section text-center">
+          <h2 class="title">Here is our Leader</h2>
+          <div class="team">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="team-player">
+                  <div class="card card-plain">
+                    <div class="col-md-6 ml-auto mr-auto text-center">
+                      <img
+                        src="https://media-exp1.licdn.com/dms/image/C5603AQGyAN77MgLuFQ/profile-displayphoto-shrink_200_200/0/1659524280999?e=2147483647&v=beta&t=VSgCDIkNyvVr46bj-8w8QHfhcEuYLVdR0zNf7JOLJRI"
+                        alt="Thumbnail Image"
+                        class="img-raised rounded-circle img-fluid"
+                      />
+                    </div>
+                    <h4 class="card-title">
+                      Gokul G Nair <br />
+                      <small class="card-description text-muted"
+                        >Communication engineer</small
+                      >
+                    </h4>
+
+                    <div class="card-body">
+                      <p class="card-description">
+                        Communication engineer with an intuitive passion for
+                        Education,Training and Development.Educational &
+                        Technical Capacity Building Specialist ,Professional
+                        Tech-Trainer and Speaker.
+                        <a href="https://webapp.entri.app/skills/8352/"
+                          >links</a
+                        >
+                      </p>
+                    </div>
+                    <div class="card-footer justify-content-center">
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                      <a href="#pablo" class="btn btn-link btn-just-icon"
+                        ><i class="fa fa-facebook-square"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-md-4">
+                      <div class="team-player">
+                        <div class="card card-plain">
+                          <div class="col-md-6 ml-auto mr-auto">
+                            <img src="http://www.onepercentfortheplanet.org/storage/individualmembership/FoundingMembers/russ_stoddard_large_square.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+        
+                          </div>
+                            <h4 class="card-title">Christian Louboutin<br>
+                              <small class="card-description text-muted">Designer</small>
+                            </h4>
+        
+                          <div class="card-body">
+                            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                          </div>
+                          <div class="card-footer justify-content-center">
+                            <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+
+              <!-- <div class="col-md-4">
+                      <div class="team-player">
+                        <div class="card card-plain">
+                          <div class="col-md-6 ml-auto mr-auto">
+                            <img src="http://www.solstreamstudios.com/ss/wp-content/uploads/2015/11/Portrait-17-JRH-5018-PE-square.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+        
+                          </div>
+                            <h4 class="card-title">Kendall Jenner<br>
+                              <small class="card-description text-muted">Model</small>
+                            </h4>
+        
+                          <div class="card-body">
+                            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                          </div>
+                          <div class="card-footer justify-content-center">
+                            <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-instagram"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-facebook-square"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="section section-contacts">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h2 class="text-center title">Work with us</h2>
+              <h4 class="text-center description">
+                Divide details about your product or agency work into parts.
+                Write a few lines about each one and contact us about any
+                further collaboration. We will responde get back to you in a
+                couple of hours.
+              </h4>
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="bmd-label-floating">Your Name</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="bmd-label-floating">Your Email</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleMessage" class="bmd-label-floating"
+                    >Your Message</label
+                  >
+                  <textarea
+                    type="email"
+                    class="form-control"
+                    rows="4"
+                    id="exampleMessage"
+                  ></textarea>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-4 ml-auto mr-auto text-center">
+                    <button class="btn btn-primary btn-raised">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer text-center">
+      <p>
+        Made with
+        <a
+          href="https://demos.creative-tim.com/material-kit/index.html"
+          target="_blank"
+          >Material Kit</a
+        >
+        by Entry Team
+      </p>
+    </footer>
+
+    <script
+      src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+      integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+      integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
